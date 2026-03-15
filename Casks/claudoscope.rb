@@ -1,11 +1,12 @@
 cask "claudoscope" do
-  version "0.3.2"
-  sha256 "9d7f07d27af1f5e69071e3d27276aefaa65e577f939e9ece42f836b26d25ce42"
+  version "0.3.3"
+  sha256 "7d99565076ea7c65bfe4697f6c1aaf75b05f6eb8eecbfc68d28c494d56a86804"
 
   url "https://github.com/cordwainersmith/Claudoscope/releases/download/v#{version}/Claudoscope.dmg"
   name "Claudoscope"
   desc "macOS menu bar companion for Claude Code sessions"
   homepage "https://github.com/cordwainersmith/Claudoscope"
+  auto_updates true
 
   depends_on macos: ">= :sonoma"
 
