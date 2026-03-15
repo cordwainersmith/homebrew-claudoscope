@@ -1,6 +1,6 @@
 cask "claudoscope" do
-  version "0.3.0"
-  sha256 "a81b1bbc5821066003991a4f4ec3425c863dd9f2fa0acd0aea6dfd8cc53cdf15"
+  version "0.3.1"
+  sha256 "c6adcb3999720a4577e20d31b156ac79ad06a347c2adcbf1d78a209900bf93d4"
 
   url "https://github.com/cordwainersmith/Claudoscope/releases/download/v#{version}/Claudoscope.dmg"
   name "Claudoscope"
