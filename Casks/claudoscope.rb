@@ -1,6 +1,6 @@
 cask "claudoscope" do
   version "0.3.8"
-  sha256 "a5a4b3d0cf0dd1b2a40bd67063863b207c2ea81dc5780e23f20fed8424378332"
+  sha256 "94401b8b4b76beaee75920ec3b245e712f7120ba6626437d49eba0ceb098a9bc"
 
   url "https://dl.claudoscope.com/v#{version}/Claudoscope.dmg",
       verified: "dl.claudoscope.com/"
