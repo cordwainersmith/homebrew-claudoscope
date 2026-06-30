@@ -5,11 +5,11 @@ cask "claudoscope" do
   url "https://dl.claudoscope.com/v0.8.0/Claudoscope.dmg",
       verified: "dl.claudoscope.com/"
   name "Claudoscope"
-  desc "macOS menu bar companion for Claude Code sessions"
+  desc "Menu bar companion for Claude Code sessions"
   homepage "https://github.com/cordwainersmith/Claudoscope"
-  auto_updates true
 
-  depends_on macos: ">= :sonoma"
+  auto_updates true
+  depends_on macos: :sonoma
 
   app "Claudoscope.app"
 
