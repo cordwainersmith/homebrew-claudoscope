@@ -1,8 +1,8 @@
 cask "claudoscope" do
-  version "1.2.0"
-  sha256 "9ca8c8337eac32a5e5c0afc76d62b3903c5225d1049e106d3d5c731a6a302a1e"
+  version "1.3.0"
+  sha256 "1086d4546a85e4c28b2a987d5c21858a48a7d15e3fd085a19a12254ba2d71799"
 
-  url "https://dl.claudoscope.com/v1.2.0/Claudoscope.dmg",
+  url "https://dl.claudoscope.com/v1.3.0/Claudoscope.dmg",
       verified: "dl.claudoscope.com/"
   name "Claudoscope"
   desc "Menu bar companion for Claude Code sessions"
